@@ -1,11 +1,63 @@
 {
   "users": [
-    { "id": 23, "firstName": "Chris", "age": "24", "companyId": 1 },
-    { "id": 47, "firstName": "Bill", "age": "29", "companyId": 1 },
-    { "id": 2, "firstName": "Tara", "age": "22", "companyId": 2 }
+    {
+      "id": 23,
+      "firstName": "Chris",
+      "age": "24",
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Tara",
+      "age": "22",
+      "companyId": 2
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 49
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 50
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 51
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 52
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 53
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 54
+    },
+    {
+      "firstName": "Stephen",
+      "age": 26,
+      "id": 55
+    }
   ],
   "companies": [
-    { "id": 1, "name": "Apple", "description": "We make iPhones!" },
-    { "id": 2, "name": "Google", "description": "We make everything else!" }
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "We make iPhones!"
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "description": "We make everything else!"
+    }
   ]
 }
