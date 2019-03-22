@@ -1,25 +1,29 @@
 {
   "name": "react-graphql-sandbox",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-scripts": "2.1.5"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisanderson27/react-graphql-sandbox.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisanderson27/react-graphql-sandbox/issues"
+  },
+  "homepage": "https://github.com/chrisanderson27/react-graphql-sandbox#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "json-server": "^0.14.2",
+    "lodash": "^4.17.11"
+  }
 }
